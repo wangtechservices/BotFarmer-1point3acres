@@ -419,7 +419,7 @@ def _validate_img(width, height, x, y, pix):
 
 def _refine(char):
     if len(char) > 1:
-        return char[-1]
+        return char[0]
     if char == '¥':
         return 'Y'
     else:
